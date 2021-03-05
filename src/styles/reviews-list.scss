@@ -1,0 +1,28 @@
+.reviews-list {
+    max-height: 250px;
+    overflow: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &__item {
+        color: #8F8F8F;
+        padding-bottom: 15px;
+
+        &:last-child {
+            border-bottom: 1px solid #E7E7E7;
+        }
+    }
+
+    &__item-name {
+        color: #000000;
+        margin-right: 5px;
+    }
+    &__item-date, &__item-place {
+        margin-right: 5px;
+    }
+
+
+
+
+}
