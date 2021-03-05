@@ -1,0 +1,44 @@
+.form-review {
+    &__title {
+        font-weight: bold;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+
+    &__block {
+        margin-bottom: 5px;
+    }
+
+    &__field {
+        font-family: Arial;
+        border: 1px solid #CFCFCF;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #000000;
+        padding: 10px 15px;
+        width: 100%;
+        &:focus {
+            border: 1px solid #1371C8;
+            outline: none;
+        }
+
+        &_textarea {
+            resize: none;
+        }
+    }
+
+    &__btn-send {
+        background: #FF8663;
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #FFFFFF;
+        padding: 10px 15px;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+            background: #fc6b43;
+        }
+    }
+}
